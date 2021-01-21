@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <job_id>68838</job_id>
+  <config_version>2</config_version>
+  <string-array name="hidden_system_packages">
+    <item>com.engloryintertech.caping</item>
+    <item>com.monotype.android.font.mfinancehkbold</item>
+    <item>com.monotype.android.font.myinghei18030m</item>
+    <item>com.monotype.android.font.myuppymediumtc</item>
+    <item>com.netflix.mediaclient</item>
+    <item>com.netflix.partner.activation</item>
+    <item>com.yandex.browser</item>
+    <item>ru.yandex.searchplugin</item>
+  </string-array>
+</resources>

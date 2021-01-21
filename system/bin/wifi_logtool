@@ -1,0 +1,18 @@
+#!/system/bin/sh
+
+verboselogging=`getprop persist.vendor.asus.wifi.verboselogging`
+
+log -t wifi_logtool verboselogging=$verboselogging
+
+if [ "$verboselogging" = "1" ];then
+	settings put global wifi_verbose_logging_enabled 1
+	#settings put global connectivity_verbose_logging_enabled 1
+	#settings put global tethering_verbose_logging_enabled 1
+elif [ "$verboselogging" = "0" ];then
+	settings put global wifi_verbose_logging_enabled 0
+	settings put global connectivity_verbose_logging_enabled 0
+	settings put global tethering_verbose_logging_enabled 0
+else
+	log -t wifi_logtool unknown parameters
+fi
+

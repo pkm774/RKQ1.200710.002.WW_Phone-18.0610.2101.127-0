@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <job_id>68838</job_id>
+  <config_version>2</config_version>
+  <string-array name="hidden_system_packages">
+    <item>jp.co.radius.neplayer_asus</item>
+  </string-array>
+</resources>
